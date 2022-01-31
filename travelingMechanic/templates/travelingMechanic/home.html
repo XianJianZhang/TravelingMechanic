@@ -192,14 +192,8 @@
          }
     </script>
     <div id = "box" style = "padding-top: 0rem;">
-      <h2 style = "text-align: center; padding: 1rem 1rem 1rem 1rem; background-color: #4db8ff;">Commisions Near You!</h2>
-    {% for commission in commissions %}
-        <a href="{%url 'commission-detail' commission.id%}" style = "text-decoration: none;margin: 0 0 0 0;">
-          <div class="clickable" style = "margin: 0 0 0 0;">
-            <h3>{{commission.title}}<br></h3>
-          </div>
-        </a>
-    {% endfor %}
+      <h2 style = "text-align: center; padding: 1rem 1rem 1rem 1rem; background-color: #4db8ff;">Commissions Near You!</h2>
+
     </div>
 
 {% endblock %}
